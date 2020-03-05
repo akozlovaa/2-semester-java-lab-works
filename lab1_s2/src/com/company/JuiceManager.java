@@ -25,6 +25,12 @@ public class JuiceManager {
             juicerArray[i] = new Juicer();
         }
 
+        int i = 0;
+        while(i<4) {
+            juicerArray[i] = new Juicer();
+            i++;
+        }
+
         for(Juicer newJuicer: juicerArray) {
             newJuicer.toString();
             System.out.println(newJuicer.toString() + "\n");
