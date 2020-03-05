@@ -76,10 +76,7 @@ public class Juicer {
     }
 
     public Juicer(String color, int maxJuicePerHour, int energyConsumption, int speed) {
-        this.color = color;
-        this.maxJuicePerHour = maxJuicePerHour;
-        this.energyConsumption = energyConsumption;
-        this.speed = speed;
+        this(color, maxJuicePerHour, energyConsumption, speed, 0, 0, 0);
     }
 
     @Override
